@@ -74,7 +74,79 @@ function chercher() {
     } else if(!redirections[a]){
         window.location.href = "ereur.html?value="+a;
     }
-}        
+} 
+function CHERCHER() {
+    var a = document.getElementById("search-bar").value.trim().toLowerCase();
+   
+    var redirections = {
+        "jeb": "../jeb.html",
+        "japen": "../japen.html",
+        "japen 1": "japen/japen1.html",
+        "japen 2": "japen/japen2.html",
+        "japen 3": "japen/japen3.html",
+        "japen 4": "japen/japen4.html",
+        "japen 5": "japen/japen5.html",
+        "japen 6": "japen/japen6.html",
+        "japen 7": "japen/japen7.html",
+        "japen 8": "japen/japen8.html",
+        "japen 9": "japen/japen9.html",
+        "japen 10": "japen/japen10.html",
+        "japen 11": "japen/japen11.html",
+        "japen 12": "japen/japen12.html",
+        "japen 13": "japen/japen13.html",
+        "japen 14": "japen/japen14.html",
+        "japen 15": "japen/japen15.html",
+        "japen 16": "japen/japen16.html",
+        "japen 17": "japen/japen17.html",
+        "japen 18": "japen/japen18.html",
+        "japen 19": "japen/japen19.html",
+        "vortex": "../vortex.html",
+        "contact": "../contact.html",
+        "collab": "../collab.html",
+        "part": "../part.html",
+        "parts": "../part.html", 
+        "mod": "../mod.html",
+        "mods": "../mod.html",
+        "fpsb": "../fpsb-history.html",
+        "fpsb x": "../fpsb-x.html",
+        "fpsbx": "../fpsb-x.html",
+        "fpsb-x": "../fpsb-x.html",
+        "fpsb 1": "fpsb-x/fpsb1.html",
+        "fpsb 2": "fpsb-x/fpsb2.html",
+        "fpsb 3": "fpsb-x/fpsb3.html",
+        "fpsb 4": "fpsb-x/fpsb4.html",
+        "fpsb 5": "fpsb-x/fpsb5.html",
+        "fpsb 6": "fpsb-x/fpsb6.html",
+        "fpsb 7": "fpsb-x/fpsb7.html",
+        "fpsb 8": "fpsb-x/fpsb8.html",
+        "fpsb 9": "fpsb-x/fpsb9.html",
+        "fpsb 10": "fpsb-x/fpsb10.html",
+        "fpsb 11": "fpsb-x/fpsb11.html",
+        "fpsb 12": "fpsb-x/fpsb12.html",
+        "spinner": "../spinner.html",
+        "modder": "../spinner.html",
+        "spinners": "../spinner.html",
+        "modders": "../spinner.html",
+        "history": "../spinner.html",
+        "board": "../spinner.html",
+        "boards": "../spinner.html",
+        "jojo": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjj5Mjm2OuEAxVaTKQEHTtKCl0QFnoECAcQAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FJoJo%2527s_Bizarre_Adventure&usg=AOvVaw12kTJBI1rF9O_MdlhZ4yai&opi=89978449",
+        "menu": "../prsite.html",
+        "contact": "../contact.html",
+        "collab": "../collab.html",
+        "part": "../part.html",
+        "mod": "../mod.html",
+    };
+    
+
+    
+
+    if (redirections[a]) {
+        window.location.href = redirections[a];
+    } else if(!redirections[a]){
+        window.location.href = "../ereur.html?value="+a;
+    }
+}       
 
 function handleDiscordClick() {
     alert('You can contact me with my discord "walbur" or on a penspinning serveur like the FPSB !');
@@ -105,6 +177,26 @@ function Part() {
 }
 
 function mod() {
+    window.location.href = "mod.html"
+}
+
+function HOME() {
+    window.location.href = "prsite.html";
+}
+
+function COLLAB() {
+    window.location.href = "collab.html"
+}
+
+function CONTACT() {
+    window.location.href = "contact.html"
+}
+
+function PART() {
+    window.location.href = "part.html";
+}
+
+function MOD() {
     window.location.href = "mod.html"
 }
 
