@@ -161,6 +161,7 @@ hr {
 .part:hover,
 .collab:hover,
 .contact:hover {
+    cursor: pointer;
     transition: background-color 1s;
     border-radius: 5px;
     padding: 10px 15px;
