@@ -12,7 +12,27 @@
 </head>
 <body>
 
-    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Cacher le contenu de la page
+            document.getElementById("content-body").style.display = "none";
+
+            // Afficher le loader
+            document.querySelector(".loader").style.display = "block";
+
+            // Attendre que tous les éléments de la page soient chargés
+            window.addEventListener("load", function() {
+                // Masquer le loader
+                document.querySelector(".loader").style.display = "none";
+
+                // Afficher le contenu de la page
+                document.getElementById("content-body").style.display = "block";
+            });
+        });
+    </script>
+    <span class="loader"></span>
+
+<div id="content-body">   
     
     <div id="img-center">
         <img id="logo" onclick="home()" src="/photo/logo-wanabur.png" alt="Wanabur logo">
@@ -48,7 +68,7 @@
 
 
 
-
+</div>
 
 
 </body>

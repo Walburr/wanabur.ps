@@ -12,7 +12,27 @@
 </head>
 <body>
 
-    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Cacher le contenu de la page
+            document.getElementById("content-body").style.display = "none";
+
+            // Afficher le loader
+            document.querySelector(".loader").style.display = "block";
+
+            // Attendre que tous les éléments de la page soient chargés
+            window.addEventListener("load", function() {
+                // Masquer le loader
+                document.querySelector(".loader").style.display = "none";
+
+                // Afficher le contenu de la page
+                document.getElementById("content-body").style.display = "block";
+            });
+        });
+    </script>
+    <span class="loader"></span>
+
+<div id="content-body">   
     
     <div id="img-center">
         <img id="logo" onclick="home()" src="photo/logo-wanabur.png" alt="Wanabur logo">
@@ -137,7 +157,7 @@
             <a target="_blank" href="https://www.youtube.com/watch?v=08UZDry4Wls&list=PLbH4JKeuBsXo3N482PQxcWX0p5afKTz1t&pp=iAQB" >
                 <img src="photo/Kara-playlist.png" height="150px" id="img-fpsb-x-playlist" alt="Link for the FPSB-X playlist">
             </a>
-
+</div>
 
 </body>
 </html>
