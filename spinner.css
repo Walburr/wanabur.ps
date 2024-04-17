@@ -15,7 +15,7 @@
     transform: rotate(360deg);
 }
 #spinner-box-anim {
-    background-image: url(/photo/frost-bt-animation.png);
+    background-image: url(photo/frost-bt-animation.png);
     background-position: center;
     background-size: contain;
     height: 180px;
