@@ -1,0 +1,97 @@
+#spinner-box {
+    background-image: url(/photo/frost-bt.png);
+    background-position: center;
+    background-size: contain;
+    height: 180px;
+    width: 299px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: transform 0.5s ease-in-out;
+}
+#spinner-box:hover #spinner-box-anim {
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+#spinner-box-anim {
+    background-image: url(/photo/frost-bt-animation.png);
+    background-position: center;
+    background-size: contain;
+    height: 180px;
+    width: 299px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition:transform 0.5s ease-in-out;
+}
+#a-center {
+    height: 180px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+#p-spinner-modder  {
+    font-family: "Pacifico" , cursive;
+    text-align: center;
+}
+#p-spinner-modder :first-child {
+    padding: 30px 0 0 0;
+}
+
+#p-spinner-modder p {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    color:  #bddfee ;
+}
+#diff-spin-mod {
+    display:flex;
+    justify-content:space-around;
+    
+}
+#diff-spin-mod p {
+    display: flex;
+    align-items: center;
+}
+#spinner-modder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#diff-spin-mod  {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin: 75px;
+    border-radius: 15px;
+}
+#diff-spin-mod img {
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+}
+#diff-spin-mod:active {
+    animation: largeur 1s ;
+    transform-origin: center center; 
+}
+@keyframes largeur {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

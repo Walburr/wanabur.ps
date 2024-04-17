@@ -1,0 +1,172 @@
+/* Input de co 1*/
+.field {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.field input {
+    margin: 15px;
+    color: rgb(103, 210, 242);
+    background: none;
+    padding: 0.625rem;
+    border: 2px solid #030104;
+    border-radius: 15px;
+}
+.field label {
+    position: absolute;
+    top: 15%;
+    left: 38%;
+    padding: 2px;
+    translate: 0.625rem 0.625rem;
+    color: #030104;
+    background-color: rgb(153, 221, 242);
+    padding-inline: 0.25rem -1rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    pointer-events: none;
+    transition: translate 250ms , background-color 250ms , border-color 250ms ;
+}
+.field:focus-within label , 
+.field:not(:has(:placeholder-shown))
+label {
+    translate: 0.625rem -1rem;
+    border-color: #000000;
+}
+.field ::placeholder {
+    color: transparent;
+}
+/* Input de co 2*/
+.field1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.field1 input {
+    margin: 15px;
+    color: rgb(103, 210, 242);
+    background: none;
+    padding: 0.625rem;
+    border: 2px solid #030104;
+    border-radius: 15px;
+}
+.field1 label {
+    position: absolute;
+    top: 15%;
+    left: 38%;
+    padding: 2px;
+    translate: 0.625rem 0.625rem;
+    color: #030104;
+    background-color: rgb(153, 221, 242);
+    padding-inline: 0.25rem -1rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    pointer-events: none;
+    transition: translate 250ms , background-color 250ms , border-color 250ms ;
+}
+.field1:focus-within label , 
+.field1:not(:has(:placeholder-shown))
+label {
+    translate: 0.625rem -1rem;
+    border-color: #000000;
+}
+.field1 ::placeholder {
+    color: transparent;
+}
+/* Autre */
+.alignement {
+    display: flex;
+    justify-content:space-around ;
+    position: relative;
+    top: 10%;
+}
+.id_box {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.croix {
+    justify-content: space-between;
+}
+.align {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around ;
+}
+h2 {
+    color: black;
+    padding-top:0px;
+    display: flex;
+    position: relative;
+    top: 0%;
+    justify-content: center;
+}
+.user_box {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(201, 233, 233);
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.create_account {
+    border-radius:20px;
+    background-color:rgb(148, 157, 233) ;
+    padding: 8px;
+    width: 100px;
+    margin: 0px;
+    position: relative;
+    top: 20%;
+    left: 35%;
+    border: 2px solid black;
+}
+.google_icon {
+    color: black;
+    padding: 5px;
+}
+.google_account {
+    display: flex;
+    align-items: center;
+    text-decoration: wavy;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: rgb(153, 224, 245);
+    height: 35px;
+    width: 170px;
+}
+.text_google {
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+.apple_icon {
+    color: black;
+    padding: 5px;
+}
+.apple_account {
+    display: flex;
+    align-items: center; 
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: rgb(153, 224, 245);
+    height: 35px;
+    width: 170px;
+}
+.text_apple {
+    color: black;
+}
+.croix_quit {
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+}
+#retour_button {
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: rgb(122, 122, 122);
+}
+.sign_in {
+    text-shadow: 1px 1px 4px rgb(91, 197, 230);
+}

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wanabur Ps</title>
+    <link rel="icon" href="photo/logo-wanabur.png" type="image/x-icon">
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="user.css">
+    <link rel="stylesheet" href="collab.css">
+    <link rel="stylesheet" href="japen.css">
+    <link rel="stylesheet" href="fpsb.css">
+    <script src="wanabur.js" defer></script>
+</head>
+<body>
+
+    
+    
+    <div id="img-center">
+        <img id="logo" onclick="home()" src="/photo/logo-wanabur.png" alt="Wanabur logo">
+    </div>
+        
+        <hr>
+
+        <div class="all_menu">
+            
+            <div id="form">
+                <form class="search" action="#" method="get" onsubmit="event.preventDefault(); chercher()">                    
+                    <input type="text" id="search-bar" class="search_bar" value="" placeholder="Search..." />
+                    <button class="search_button" type="submit">🔎</button>
+                </form>
+            </div>
+            
+            
+            <div  class="menu">
+                <a class="menu1"  onclick="home()"><span>Menu</span></a>
+                <a class="mod" onclick="mod()"><span>Mod</span></a>
+                <a class="part" onclick="Part()" ><span>Part</span></a>
+                <a class="activer contact" onclick="contact()"><span>Contact</span></a>
+                <a class="activer collab" onclick="collab()"><span>Collab</span></a>    
+            </div>
+            
+        </div>
+        
+        <hr>
+
+
+
+        <p id="history-fpsb">History of the FPSB</p>
+
+
+        <p class="aqua-text center-texte-history" id="fpsb-history-center"> The French Pen Spinning Board or FPSB is a Pen Spinning Community based in France, but accommodating French speakers from other nations, including Belgium after BPSC closed in late 2011.
+
+FPSB v1 was initially created by Radek on February 8th 2005, but closed in late 2005 after being hacked. Soon after FPSB v2 was opened, and the first FPSB Tournament was held in 2006, won by spinner A_Qui.
+
+<br> History :<br>
+The earliest reference to pen spinning in France was a commercial from Bic for a four-color pen in 1970. <br>
+
+In 2004, PenDolSa 1st was shared on the Cube forum, a site for Super Smash Bros players. Most users did not believe the video to be genuine, but user Radek decided to learn the tricks in order to prove that they were wrong, and started a small community on the forum also interested as he did. With more people joining in, he decided to launch a forum of his own.
+<br>
+FPSB V1 <br>
+On the 8th February 2005, FPSB V1 was launched with some of the earliest french spinners such as Fratleym and gollumsk8 registering. The first French pen spinning team, "SpowasH" was formed by A_Qui, Scelus, Skatox and Sorez. In late 2005 the FPSB V1 forum was hacked, and the site shut down with a temporary board being put up while Radek worked on FPSB V2.
+<br>
+FPSB V2 <br>
+The community continued to grow after FPSB V2 opened, and spinners began to benefit from international trading becoming more popular, allowing French spinners to acquire mods such as the Comssa and the RSVP MX. The first FPSB Tournament was held in 2006 and won by A_Qui, and the board released the FPSB "Hall of Honor" collab[1], edited by Fratleym. Collaborations with other boards also began to emerge such as "FPSB-UKPS", "FPSB-Penzone" and "PDS-FPSB". Several FPSB spinners participated in the Pen Spinning World Tournament 2007 with two reaching the finals. The first FPSB Gathering was held in 2007 and the "Laboratoire", a research group similar to UPSB's Research Department, was also formed. Later, FPSB V2 was hacked and started a migration to a newer forum.
+<br>
+FPSB V3 <br>
+Now moderated by Picool, FPSB V3 started off with initial weak performance in the competitive scene. In the Pen Spinning World Cup 2008 the FPSB team was knocked out in the second round and in the Pen Spinning World Tournament 2009 only Fratleym made it to even the quarterfinals, a stark downturn from their strength in 2007. In 2007 the Bic Pen Spinning Awards was held in France, the first tournament to be hosted by a pen brand. This was won by German spinner Puddels Kern. The French community had much more success with their collaboration videos, with FPSB 3rd, FPSB Hope 3rd and FPSB Anthology being well-received. It took until 2011 for FPSB to reclaim their early standing on the world stage, with S777 winning the Pen Spinning World Tournament 2011. In late 2011, the Belgian board BPSC closed, with the members from BPSC joining FPSB instead. After some disagreements between staff members, the decision was made to move to a new board.
+<br>
+FPSB V4 <br>
+FPSB continued its success on the competitive side of the hobby by winning the Pen Spinning World Cup 2012. In order to avoid having to close the forums altogether like UPSB did, the decision was made to make a new, beginner-friendly FPSB site.
+<br>
+FPSB V5 <br>
+The current (as of Feb 2021) iteration of the French community's forum. Not as active as it was intended to be as the old base no longer uses the forums for the most part. 
+<br>
+
+<div id="anim-btn">
+
+    <p class="aqua-text" id="more-about-fpsb"><a target="_blank" href="https://wiki.fenspinner.net/index.php/FPSB"><span>More</span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left fleche-gauche" viewBox="0 0 16 16">
+
+    <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5"/></svg> </a></p></p>
+
+</div>
+<h2 id="ref-spinner-modder" class="lot-spinners-modders">You can see here a lot of Spinners and Modders from the FPSB</h2>
+<h2 class="lot-spinners-modders">and the collab(s) in wich they participated</h2>
+
+
+
+<div translate="no" id="fpsb-people">
+
+    
+    <div id="card-container">
+        <div id="flip-card">
+            <div id="front">
+                <a href="vortex.html"> 
+                    <div class="spinners-modders-cases" class="spinners-modders-cases"><p>Vortex</p></div>
+                </a> 
+            </div>
+            <div id="back">
+                <a href="vortex.html">
+                    <div id="spinners-modders-cases-back"><p><strong>Vortex</strong> is in <strong>VALUE</strong> collab and win <strong>VALUE</strong> competition</p> </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="card-container">
+        <div id="flip-card">
+            <div id="front">
+                <a href="/fpsb-spinner-modder/tchus.html"> 
+                    <div class="spinners-modders-cases" class="spinners-modders-cases"><p>Tchus</p></div>
+                </a>
+            </div>
+            <div id="back">
+                <a href="/fpsb-spinner-modder/tchus.html">
+                    <div id="spinners-modders-cases-back"><p><strong>Tchus</strong> is in <strong>VALUE</strong> collab and win <strong>VALUE</strong> competition</p> </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="card-container">
+        <div id="flip-card">
+            <div id="front">
+                <a href="/fpsb-spinner-modder/mejace.html">
+                    <div class="spinners-modders-cases" class="spinners-modders-cases"><p>Mejace</p></div>
+               </a> 
+            </div>
+            <div id="back">
+                <a href="/fpsb-spinner-modder/mejace.html">
+                    <div id="spinners-modders-cases-back"><p><strong>Mejace</strong> is in <strong>VALUE</strong> collab and win <strong>VALUE</strong> competition</p> </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="card-container">
+        <div id="flip-card">
+            <div id="front">
+                <a href="/fpsb-spinner-modder/banz.html">
+                    <div class="spinners-modders-cases" class="spinners-modders-cases"><p>Banz</p></div>
+                </a>
+            </div>
+            <div id="back">
+                <a href="/fpsb-spinner-modder/banz.html">
+                    <div id="spinners-modders-cases-back"><p><strong>Banz</strong> is in <strong>VALUE</strong> collab and win <strong>VALUE</strong> competition</p> </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="card-container">
+        <div id="flip-card">
+            <div id="front">
+                <a href="/fpsb-spinner-modder/radek.html">
+                    <div class="spinners-modders-cases" class="spinners-modders-cases"><p>Radek</p></div>
+                </a> 
+            </div>
+            <div id="back">
+                <a href="/fpsb-spinner-modder/radek.html">
+                    <div id="spinners-modders-cases-back"><p><strong>Radek</strong> is in <strong>VALUE</strong> collab and win <strong>VALUE</strong> competition</p> </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="card-container">
+        <div id="flip-card">
+            <div id="front">
+                <a href="/fpsb-spinner-modder/ktj.html">
+                    <div class="spinners-modders-cases" class="spinners-modders-cases"><p id="kara-text">Kara-T-J</p></div>
+                </a>  
+            </div>
+            <div id="back">
+                <a href="/fpsb-spinner-modder/ktj.html">
+                    <div id="spinners-modders-cases-back"><p><strong>Kara-T-J</strong> is in <strong>94</strong> collab and win <strong>1</strong> competition</p> </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="card-container">
+        <div id="flip-card">
+            <div id="front">
+                <a href="/fpsb-spinner-modder/tache.html">
+                    <div class="spinners-modders-cases" class="spinners-modders-cases"><p>Tache</p></div>
+                </a> 
+            </div>
+            <div id="back">
+                <a href="/fpsb-spinner-modder/tache.html">
+                    <div id="spinners-modders-cases-back"><p><strong>Tache</strong> is in <strong>VALUE</strong> collab and win <strong>VALUE</strong> competition</p> </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="card-container">
+        <div id="flip-card">
+            <div id="front">
+                <a href="/fpsb-spinner-modder/som.html">
+                    <div class="spinners-modders-cases" class="spinners-modders-cases"><p>SomtchaÏ</p></div>
+                </a>
+            </div>
+            <div id="back">
+                <a href="/fpsb-spinner-modder/som.html">
+                    <div id="spinners-modders-cases-back"><p><strong>SomtachaÏ</strong> is in <strong>VALUE</strong> collab and win <strong>VALUE</strong> competition</p> </div>
+                </a>
+            </div>
+        </div>
+    </div>
+     
+
+    <div id="card-container">
+        <div id="flip-card">
+            <div id="front">
+                <a href="/fpsb-spinner-modder/papayetowi2.html">
+                    <div class="spinners-modders-cases" class="spinners-modders-cases"><p>Aayatowi2</p></div>
+                </a>
+            </div>
+            <div id="back">
+                <a href="/fpsb-spinner-modder/papayetowi2.html">
+                    <div id="spinners-modders-cases-back"><p><strong>Aayatowi2</strong> is in <strong>VALUE</strong> collab and win <strong>VALUE</strong> competition</p> </div>
+                </a>
+            </div>
+        </div>
+    </div>
+     
+
+    <div id="card-container">
+        <div id="flip-card">
+            <div id="front">
+                <a href="/fpsb-spinner-modder/gsk8.html">
+                  <div class="spinners-modders-cases" class="spinners-modders-cases"><p>Gollumsk8</p></div>
+                </a> 
+            </div>
+            <div id="back">
+                <a href="/fpsb-spinner-modder/gsk8.html">
+                    <div id="spinners-modders-cases-back"><p><strong>Gollumsk8</strong> is in <strong>VALUE</strong> collab and win <strong>VALUE</strong> competition</p> </div>
+                </a>
+            </div>
+        </div>
+    </div> 
+
+    <div id="card-container">
+        <div id="flip-card">
+            <div id="front">
+                <a href="/fpsb-spinner-modder/dust.html">
+                    <div class="spinners-modders-cases"><p>Dustfall</p></div>
+                </a>
+            </div>
+            <div id="back">
+                <a href="/fpsb-spinner-modder/dust.html">
+                    <div id="spinners-modders-cases-back"><p><strong>Dustfall</strong> is in <strong>VALUE</strong> collab and win <strong>VALUE</strong> competition</p> </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<h2 id="compet-collab">Here all the Fpsb collab and competition.</h2>
+
+<div id="all-collab-fpsb" class="conteneur">
+    
+    
+    
+    <div id="collab-fpsb">
+        <a href="fpsb-x.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb X</p>
+            </div>
+        </a>
+    </div>
+    
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/Fpsb-hope/Fpsb-hope.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb Hope</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/Spin Fest/fpsb-spinfest.html">
+            <div id="collab-fpsb-box">
+                <p>Spin fest</p>
+            </div>
+        </a>
+    </div>
+    
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fpsb-i-c-p.html">
+            <div id="collab-fpsb-box">
+                <p>International collab for Paris </p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fpsb-anthology.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb Anthology</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-old-new-years.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb Oldies New Year</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-express.html">
+            <div id="collab-fpsb-box">
+                <p>Meeting</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-express.html">
+            <div id="collab-fpsb-box">
+                <p>Express</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-Gpc.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb & Gpc</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-Jeb.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb & Jeb</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-ipsb.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb & Ipsb</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-kpsa.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb & Kpsa</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-spsc.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb & Spsc</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-upsb.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb & Upsb</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-vnpsb.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb & Vnpsb</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-thpsc.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb & Thpsc</p>
+            </div>
+        </a>
+    </div>
+
+    
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-bpsc.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb & Bpsc</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-ukps.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb & Ukps</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-SweSpin.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb & SweSpin</p>
+            </div>
+        </a>
+    </div>
+    
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-Jeb.html">
+            <div id="collab-fpsb-box">
+                <p>Vortex</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-Jeb.html">
+            <div id="collab-fpsb-box">
+                <p>Bee collab</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-Jeb.html">
+            <div id="collab-fpsb-box">
+                <p>X incipiens Stabilus</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-Jeb.html">
+            <div id="collab-fpsb-box">
+                <p>Finem Ludum</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-Jeb.html">
+            <div id="collab-fpsb-box">
+                <p>Just a Dream</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-collab/fr-Jeb.html">
+            <div id="collab-fpsb-box">
+                <p>Fpsb the Beginning</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-spinner-modder/wanadoo.html">
+            <div id="collab-fpsb-box">
+                <p>Wanadoo</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="collab-fpsb">
+        <a href="fpsb-spinner-modder/walbur.html">
+            <div id="collab-fpsb-box">
+                <p>Walbur</p>
+            </div>
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>

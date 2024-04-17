@@ -1,0 +1,67 @@
+body {
+    text-decoration: none;
+}
+[class^="boite_jap"] {
+    padding: 7px;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(100, 191, 219);
+    border: 3.6px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    margin: 30px 0px 25px 1px;
+    text-decoration: none; 
+    font-family: "Lemon", serif;
+    font-size: 13px;
+    color: rgb(32, 32, 32);
+    vertical-align: top; 
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.7s;
+    box-shadow: 
+    1rem 1rem 0 -0.22rem #ceeef8,
+    1rem 1rem 0 0 black;
+}
+[class^="boite_jap"]:hover {
+    box-shadow: 
+    0.5em 0.5em 0 -0.22rem #ceeef8,
+    0.5em 0.5em 0 0 black;
+}
+[class^="boite_jap"] h4 p {
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+}
+#jap-p {
+    margin-top: 35px;
+    font-family: "Lemon", serif;
+    color: rgb(32, 32, 32);
+}
+.vidéo_jap_1 {
+    margin-left: 40%;
+    text-decoration: none;
+}
+h2 {
+    color: (159, 255, 255);
+    text-decoration: none;
+}
+.choix_japen {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    margin: 0;
+}
+#japen_p {
+    margin: 30px;
+    color: rgb(115, 249, 249);
+    font-family: "Lemon", serif;
+}
+#img-japen-playlist {
+    margin: 40PX 0PX 100PX 44%;
+    border-radius: 15px;
+}

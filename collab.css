@@ -1,0 +1,18 @@
+.box_fpsb {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-image: url('/photo/Fpsblogo.png'); 
+    background-size: contain;
+    background-position: center; 
+    border: 2px solid #000000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
+.all_menu a {
+    display: flex;
+   align-items: flex-end;
+}

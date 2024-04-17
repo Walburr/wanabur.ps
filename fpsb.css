@@ -1,0 +1,325 @@
+[id^="boite_fr"] {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(100, 191, 219);
+    border: 3.6px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    margin: 30px 0px 25px 1px;
+    text-decoration: none; 
+    color: rgb(32, 32, 32);
+    font-family: "Lemon", serif;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;
+    transition: box-shadow 1s;
+    box-shadow: 
+    1rem 1rem 0 -0.22rem #ceeef8,
+    1rem 1rem 0 0 black;
+}
+[id^="boite_fr"]:hover {
+    box-shadow:
+    0.5em 0.5em 0 -0.22rem #ceeef8,
+    0.5em 0.5em 0 0 black;
+}
+[id^="boite_fr"] h4 p {
+    padding: 3px;
+    color: rgb(32, 32, 32);
+    text-align: center;
+    text-decoration: none;
+}
+.choix_fpsb-x {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    margin: 0;
+}
+#fps-p {
+    margin-top: 35px;
+    font-family: "Lemon", serif;
+    color: rgb(32, 32, 32);
+}
+#fpsb-x-p {
+    margin: 30px;
+    color: rgb(115, 249, 249);
+    font-family: "Lemon", serif;
+}
+#img-fpsb-x-playlist {
+    margin: 40PX 0PX 100PX 40%;
+    border-radius: 15px;
+}
+#history-fpsb {
+    font-family: "Lemon", serif;
+    padding: none;
+    margin: none;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(189, 223, 238);
+}
+.center-texte-history {
+    text-align: center;
+    color: rgb(189, 223, 238);
+}
+#fpsb-history-center {
+    font-family: "Lemon", serif;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+#more-about-fpsb {
+    font-family: "Seymour One", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+#more-about-fpsb a {
+    text-decoration: none;
+    color: rgb(130, 188, 255);
+    padding: 20px;
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    font-size: 30px;
+}
+#more-about-fpsb a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgb(189, 223, 238), rgb(130, 188, 255));
+    z-index: -1;
+    transition: opacity 0.9s ease-in-out;
+    opacity: 0;
+}
+#more-about-fpsb a:hover::before {
+    opacity: 1;
+}
+#more-about-fpsb a:hover {
+    background-color: transparent;
+}
+#anim-btn  :active  {
+    animation: largeur 1s ;
+    transform-origin: center center; 
+}
+@keyframes largeur {
+    0% {
+        scale: 1;
+    }
+
+    25% {
+        scale: 1.2;
+    }
+
+    50% {
+        scale: 1;
+    }
+
+    75% {
+        scale: 1.2;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+p span {
+    margin-right: 5px;
+}
+.lot-spinners-modders {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 30px 50px 0  ;
+    font-family: "Lemon", serif;
+    color: rgb(130, 188, 255);
+}
+#fpsb-people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+#fpsb-people a {
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+}
+.spinners-modders-cases {
+    transition: transform 1s;
+    padding: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+    background-color: rgb(105, 175, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+}
+#spinners-modders-cases-back {
+    transition: transform 1s;
+    padding: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+    background-color:#cc1899;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+    border: 2px black solid;
+}
+#card-container {
+    width: 70px;
+    height: 70px;
+    margin: 2rem;
+    perspective: 1000rem;
+    border-radius: 6px;
+}
+#flip-card , #front , #back {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#back strong {
+    font-size: 14px;
+}
+#flip-card {
+    transition: transform 0.6s;
+    transform-style:preserve-3d ;
+}
+#card-container:hover #flip-card , #back {
+    transform: rotateY(180deg);
+}
+#front , #back {
+    border-radius: 6px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+#front:active p {
+    animation: largeur 0.4s;
+    transform-origin: center center;
+}
+#kara-text {
+    font-size: 15px;
+}
+a .spinners-modders-cases p {
+    font-family: "Pacifico", cursive;
+}
+#all-collab-fpsb {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+#collab-fpsb-box:hover {
+    transition: background-color 1s, color 1s, border 1s  ;
+    background-color:rgb(0, 33, 77) ;
+    color: white;
+    border: 3px solid white;
+}
+#collab-fpsb a{
+    border-radius:15px 30px 15px 30px ;
+}
+#collab-fpsb-box {
+  margin: 30px 0 0 20px;
+  height: 200px;
+  width: 200px;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: rgb(125, 173, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 3px black solid;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 900;
+}
+#collab-fpsb-box:last-child {
+    margin-bottom: 20px;
+}
+@keyframes hauteur {
+    0% {
+
+    }
+
+    25% {
+
+    }
+
+    50% {
+
+    }
+
+    75%{
+
+    }
+
+    100% {
+
+    }
+}
+#compet-collab{
+    padding: 30px;
+    color: rgb(105, 175, 255);
+    font-size: 35px;
+}
+/*Collab with FPSB*/
+#gpc-Fr-txt {
+    color: #ceeef8;
+}
+/*Spinner , Modders .....*/
+#kara-txt-p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #6eb7ce;
+    font-size: 45px;
+}
+.home {
+    display: flex;
+    height: 100dvh;
+    position: relative;
+    overflow: hidden;
+}
+.home img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.home .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.about {
+    padding: 50px;
+    background: #3B3291;
+    color: white;
+    position: relative;
+    z-index: 100;
+}
+.about h1 {
+    font-size: 40px;
+}
