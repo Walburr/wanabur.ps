@@ -181,7 +181,7 @@ function mod() {
 }
 
 function HOME() {
-    window.location.href = "../prsite.html";
+    window.location.href = "../../prsite.html";
 }
 
 function COLLAB() {
@@ -189,7 +189,7 @@ function COLLAB() {
 }
 
 function CONTACT() {
-    window.location.href = "../contact.html"
+    window.location.href = "../../contact.html"
 }
 
 function PART() {
