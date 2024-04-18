@@ -189,7 +189,7 @@ function COLLAB() {
 }
 
 function CONTACT() {
-    window.location.href = "../contact.html"
+    window.location.href = "../../contact.html"
 }
 
 function PART() {
