@@ -181,7 +181,7 @@ function mod() {
 }
 
 function HOME() {
-    window.location.href = "../../prsite.html";
+    window.location.href = "../";
 }
 
 function COLLAB() {
