@@ -162,10 +162,12 @@ hr {
 .collab:hover,
 .contact:hover {
     cursor: pointer;
-    transition: background-color 1s;
     border-radius: 5px;
     padding: 10px 15px;
     background-color: aliceblue;
+}
+.menu1,.mod,.part,.collab,.contact {
+    transition: background-color 1s;
 }
 .menu {
     font-size: 1.3em;
