@@ -100,7 +100,7 @@ function CHERCHER() {
         "japen 17": "japen/japen17.html",
         "japen 18": "japen/japen18.html",
         "japen 19": "japen/japen19.html",
-        "vortex": "/../vortex.html",
+        "vortex": "../lesitedeszinzins/vortex.html",
         "contact": "../contact.html",
         "collab": "../collab.html",
         "part": "../part.html",
