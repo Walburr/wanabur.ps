@@ -181,23 +181,23 @@ function mod() {
 }
 
 function HOME() {
-    window.location.href = "../../prsite.html";
+    window.location.href = "../prsite.html";
 }
 
 function COLLAB() {
-    window.location.href = "../../collab.html"
+    window.location.href = "../collab.html"
 }
 
 function CONTACT() {
-    window.location.href = "../../contact.html"
+    window.location.href = "../contact.html"
 }
 
 function PART() {
-    window.location.href = "../../part.html";
+    window.location.href = "../part.html";
 }
 
 function MOD() {
-    window.location.href = "../../mod.html"
+    window.location.href = "../mod.html"
 }
 
 function jeb_board() {
