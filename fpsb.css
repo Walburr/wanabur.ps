@@ -1,3 +1,6 @@
+body {
+    text-decoration: none;
+}
 [id^="boite_fr"] {
     display: inline-block;
     width: 300px;
@@ -327,7 +330,7 @@ a .spinners-modders-cases p {
 #fr-hope {
     color: #6eb7ce;
 }
-#box_hope {
+.box-hope {
     padding: 7px;
     display: inline-block;
     width: 300px;
@@ -348,14 +351,35 @@ a .spinners-modders-cases p {
     1rem 1rem 0 -0.22rem #ceeef8,
     1rem 1rem 0 0 black;
 }
-#box_hope:hover {
+.box-hope:hover {
     box-shadow: 
     0.5em 0.5em 0 -0.22rem #ceeef8,
     0.5em 0.5em 0 0 black;
 }
-#box_hope h4 p {
+.box-hope h4 p {
     padding: 3px;
     color: rgb(0, 0, 0);
     text-align: center;
     text-decoration: none;
 }
+#fr-hope {
+    padding: 35px;
+}
+.choix_hope {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    margin: 0;
+}
+#hope_p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ceeef8;
+}
+*
