@@ -52,10 +52,6 @@ body {
     color: rgb(115, 249, 249);
     font-family: "Lemon", serif;
 }
-#img-fpsb-x-playlist {
-    margin: 40PX 0PX 100PX 40%;
-    border-radius: 15px;
-}
 #history-fpsb {
     font-family: "Lemon", serif;
     padding: none;
@@ -364,6 +360,7 @@ a .spinners-modders-cases p {
 }
 #fr-hope {
     padding: 35px;
+    font-family: "Lemon", serif;
 }
 .choix_hope {
     text-decoration: none;
@@ -381,4 +378,12 @@ a .spinners-modders-cases p {
     align-items: center;
     text-align: center;
     color: #ceeef8;
+}
+#img-fpsb-playlist {
+    border-radius: 15px;
+    margin: 40px 0 100px 0 ;
+}
+#center-an-img {
+    display: flex;
+    justify-content: center;
 }
