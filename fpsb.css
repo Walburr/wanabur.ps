@@ -387,3 +387,22 @@ a .spinners-modders-cases p {
     display: flex;
     justify-content: center;
 }
+/*Contact the Fpsb */
+#contact-the-fpsb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #6eb7ce;
+    font-family: "Dangrek", sans-serif; 
+}
+#contact-fpsb {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+[id^="contact-box-fpsb"] {
+    height:100px ;
+    width: 100px;
+    border-radius: 50%;
+}
