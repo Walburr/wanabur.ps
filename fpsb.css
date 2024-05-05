@@ -253,27 +253,6 @@ a .spinners-modders-cases p {
 #collab-fpsb-box:last-child {
     margin-bottom: 20px;
 }
-@keyframes hauteur {
-    0% {
-
-    }
-
-    25% {
-
-    }
-
-    50% {
-
-    }
-
-    75%{
-
-    }
-
-    100% {
-
-    }
-}
 #compet-collab{
     padding: 30px;
     color: rgb(105, 175, 255);
@@ -393,16 +372,132 @@ a .spinners-modders-cases p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #6eb7ce;
+    color: rgb(122, 168, 233);
     font-family: "Dangrek", sans-serif; 
 }
-#contact-fpsb {
+#fpsb-reseau {
     display: flex;
     justify-content: center;
-    flex-wrap:wrap;
+    align-items: center;
+    text-align: center;
 }
-[id^="contact-box-fpsb"] {
-    height:100px ;
-    width: 100px;
+/*Twitter item logo*/
+.twitter-item {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(125, 173, 239);
+    border: 2px solid black;
+    transform: scale(1);
+    transition: scale(1);
+    transition: 0.4s ;
+}
+.twitter-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.twitter-item svg {
+    font-size: 2rem;
+    color: black;
+}
+.twitter-item svg:hover {
+    transform: rotateX(360deg);
+}
+.twitter-item:hover svg {
+    color: white;
+}
+.twitter-item:hover {
+    transform: scale(1.5);
+    transition: scale(1);
+    transition: 0.4s ;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+/*Dicord item logo*/
+.discord-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(125, 173, 239);
+    border: 2px solid black;
+    transform: scale(1);
+    transition: scale(1);
+    transition: 0.4s ;
+}
+.discord-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.discord-item svg {
+    font-size: 2rem;
+    color: black;
+}
+.discord-item svg:hover {
+    transform: rotateX(360deg);
+}
+.discord-item:hover svg {
+    color: white;
+}
+.discord-item:hover {
+    transform: scale(1.5);
+    transition: scale(1);
+    transition: 0.4s ;
+    background-color: rgb(114,137,218);
+    color: white;
+    border: 2px solid white;
+}
+/*Gmail item*/
+.mail-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(125, 173, 239);
+    border: 2px solid black;
+    transition: transform 0.4s ease;
+}
+.mail-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.mail-item img {
+    width: 34px;
+    height: auto;
+    font-size: 2rem;
+    color: black;
+    filter: grayscale(100%) brightness(50%);
+    transition: filter 0.4s ease, transform 0.4s ease;
+}
+.mail-item:hover {
+    transform: scale(1.5);
+    background: white;
+    border: 2px solid black;
+}
+.mail-item:hover img {
+    filter: grayscale(0%) brightness(100%);
+}
+.mail-item {
+    display: flex;
+    justify-content: baseline;
+}
+.mail-item img:hover {
+    transform: rotateX(360deg);
 }
