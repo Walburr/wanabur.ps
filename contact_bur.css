@@ -2,6 +2,12 @@
     display: flex;
     justify-content: space-around;
 }
+[class^="item"] svg:hover {
+    transform: rotateX(360deg);
+}
+[class^="item"] img:hover {
+    transform: rotateX(360deg);
+}
 /* Insta */
 .item {
     width: 50px;
@@ -13,7 +19,6 @@
     background-color:rgb(153, 224, 245);
     border: 2px solid black;
     transform: scale(1);
-    transition: scale(1);
     transition: 0.4s ;
 }
 .item svg {
@@ -21,9 +26,6 @@
     color: black;
     display: flex;
     justify-content: center;
-}
-.item svg:hover {
-    transform: rotateX(360deg);
 }
 .insta {
     transition: 0.4s ease;
@@ -47,7 +49,6 @@
     background-color:rgb(153, 224, 245);
     border: 2px solid black;
     transform: scale(1);
-    transition: scale(1);
     transition: 0.4s ;
 }
 .items a {
@@ -59,9 +60,6 @@
 .items svg {
     font-size: 2rem;
     color: black;
-}
-.items svg:hover {
-    transform: rotateX(360deg);
 }
 .items:hover svg {
     color: white;
@@ -105,9 +103,6 @@
 .item_ytb:hover svg {
     color:#db1811;
 }
-.item_ytb svg:hover {
-    transform: rotateX(360deg);
-}
 .youtube {
     transition: 0.4s ease;
     z-index: 2;
@@ -119,7 +114,7 @@
     background: white;
     border: 2px solid black;
 }
-/* Gmail *//* CSS */
+/* Gmail */
 .item_mail {
     width: 50px;
     height: 50px;
@@ -190,9 +185,6 @@ svg {
     font-size: 2rem;
     color: black;
 }
-.itemst svg:hover {
-    transform: rotateX(360deg);
-}
 .itemst:hover svg {
     color: white;
     filter:drop-shadow(2px 2px 0px rgb(255, 0, 0)) drop-shadow(-0.9px -1.3px 0px rgb(0, 217, 255)) ;
@@ -242,9 +234,6 @@ svg {
 }
 .itemd:hover svg {
     color: white;
-}
-.itemd svg:hover {
-    transform: rotateX(360deg);
 }
 .discord {
     transition: 0.4s ease;
