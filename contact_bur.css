@@ -62,11 +62,12 @@
     color: black;
 }
 .items:hover svg {
+    transform: rotateX(360deg);
     color: white;
 }
 .items:hover {
     transform: scale(1.5);
-    transition: scale(1);
+    transition: transform;
     transition: 0.4s ;
     background-color: black;
     color: white;
