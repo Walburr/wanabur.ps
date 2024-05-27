@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="
+    Here you can find a large number of 
+    collaborations from your favorite spinners,
+     find boards, the contact information of many
+      spinners, and much more. So what are you 
+      waiting for to click on this link!">
+    <title>Wanabur Ps</title>
+    <link rel="icon" href="photo/logo-wanabur.png" type="image/x-icon">
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="user.css">
+    <link rel="stylesheet" href="collab.css">
+    <link rel="stylesheet" href="japen.css">
+    <link rel="icon" href="photo/logo-wanabur.png" type="image/x-icon">
+    <script src="wanabur.js" defer></script>
+</head>
+<body>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Cacher le contenu de la page
+            document.getElementById("content-body").style.display = "none";
+
+            // Afficher le loader
+            document.querySelector(".loader").style.display = "block";
+
+            // Attendre que tous les éléments de la page soient chargés
+            window.addEventListener("load", function() {
+                // Masquer le loader
+                document.querySelector(".loader").style.display = "none";
+
+                // Afficher le contenu de la page
+                document.getElementById("content-body").style.display = "block";
+            });
+        });
+    </script>
+    <span class="loader"></span>
+
+<div id="content-body">   
+    
+        <div id="img-center">
+            <img id="logo" onclick="home()" src="photo/logo-wanabur.png" alt="Wanabur logo">
+        </div>
+        
+        <hr>
+
+        <div class="all_menu">
+            
+            <div id="form">
+                <form class="search" action="#" method="get" onsubmit="event.preventDefault(); chercher()">                    
+                    <input type="text" id="search-bar" class="search_bar" value="" placeholder="Search..." />
+                    <button class="search_button" type="submit">🔎</button>
+                </form>
+            </div>
+            
+            
+            <div  class="menu">
+                <a class="activer menu1"  onclick="home()"><span>Menu</span></a>
+                <a class="mod" onclick="mod()"><span>Mod</span></a>
+                <a class="part" onclick="Part()" ><span>Part</span></a>
+                <a class="contact" onclick="contact()"><span>Contact</span></a>
+                <a class="collab" onclick="collab()"><span>Collab</span></a>    
+            </div>
+
+        </div>
+        
+        <hr>
+        
+
+
+        <div id="menu-description">
+            <h3 class="center st-pr-p" > Here is a little description of this site !</h3>
+            <p class="center pr-p">This site is for search the last part unknow , the new spinners/modders generations ,some penspinning video like <strong ><a target="_blank"  class="japen19_video" href="https://youtu.be/EKXJXarVUNE?si=M03jCPRGHraSb2Xo"><span class="japen19_video_hover">Japen 19th</span></a></strong>....</p>
+            <p class="center pr-p" >We made this site for the passion and for help young spinner or older spinner who want pen part name , collab names ...</p>
+            <p class="center pr-p">At the base this site is only for train my skils in Web Dev with my friend Wanadoo and some others friends who help me for this website . </p>
+            <p class="center pr-p">But after reflexion I (Walbur) think it can be a good site .</p>
+        </div>
+
+
+        <div id="jojo-ref" class="center"><p>Jotaro !!!! Dio !!!!</p></div>
+
+
+        
+
+</div>
+
+    </body>
+</html>
