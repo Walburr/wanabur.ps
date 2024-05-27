@@ -10,21 +10,18 @@
     border-radius: 15px;
     transition: transform 0.5s ease-in-out;
 }
-#spinner-box:hover #spinner-box-anim {
-    transition: transform 0.5s ease-in-out;
-    transform: rotate(360deg);
-}
 #spinner-box-anim {
     background-image: url(photo/frost-bt-animation.png);
     background-position: center;
     background-size: contain;
+    text-shadow: 40px 40px 40px  black;
     height: 180px;
     width: 299px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    transition:transform 0.5s ease-in-out;
+    
 }
 #a-center {
     height: 180px;

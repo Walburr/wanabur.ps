@@ -8,6 +8,9 @@
 [class^="item"] img:hover {
     transform: rotateX(360deg);
 }
+[class^="item"] svg {
+    transition: transform;
+}
 /* Insta */
 .item {
     width: 50px;

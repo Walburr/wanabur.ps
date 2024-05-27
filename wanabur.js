@@ -1,3 +1,6 @@
+if (window.location.pathname === '/index.html') {
+    window.history.replaceState(null, '', '/');
+}
 var monElement = document.getElementById("error_p");
 const searchParams = new URLSearchParams(window.location.search);
 if (searchParams.has("value")){
