@@ -9,7 +9,7 @@
     transform: rotateX(360deg);
 }
 [class^="item"] svg {
-    transition: transform;
+    transition: transform 0.4s ease;
 }
 /* Insta */
 .item svg:hover {
@@ -43,6 +43,9 @@
     transition: 0.4s ;
     background: linear-gradient(-20deg , #f1d622, #F58529, #f74b99, #7400b7);
 }
+.item svg:hover svg {
+    transform: rotateX('360deg');
+}
 /* Twitter */
 .items {
     width: 50px;
@@ -70,10 +73,10 @@
 .items:hover svg {
     transform: rotateX(360deg);
     color: white;
-}
-.items svg:hover {
-    transform: rotateX(360deg);
-}
+    }
+    .items svg:hover {
+        transform: rotateX(360deg);
+    }
 .items:hover {
     transform: scale(1.5);
     transition: transform;
