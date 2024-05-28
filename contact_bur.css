@@ -12,6 +12,9 @@
     transition: transform;
 }
 /* Insta */
+.item svg:hover {
+    transform: rotateX(360deg);
+}
 .item {
     width: 50px;
     height: 50px;
@@ -68,6 +71,9 @@
     transform: rotateX(360deg);
     color: white;
 }
+.items svg:hover {
+    transform: rotateX(360deg);
+}
 .items:hover {
     transform: scale(1.5);
     transition: transform;
@@ -106,6 +112,9 @@
 }
 .item_ytb:hover svg {
     color:#db1811;
+}
+.item_ytb svg:hover {
+    transform: rotateX(360deg);
 }
 .youtube {
     transition: 0.4s ease;
@@ -193,6 +202,9 @@ svg {
     color: white;
     filter:drop-shadow(2px 2px 0px rgb(255, 0, 0)) drop-shadow(-0.9px -1.3px 0px rgb(0, 217, 255)) ;
 }
+.itemst svg:hover {
+    transform: rotateX(360deg);
+}
 .tiktok {
     transition: 0.4s ease;
     z-index: 2;
@@ -242,6 +254,9 @@ svg {
 .discord {
     transition: 0.4s ease;
     z-index: 2;
+}
+.itemd svg:hover {
+    transform: rotateX(360deg);
 }
 .itemd:hover {
     transform: scale(1.5);
