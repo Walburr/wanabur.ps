@@ -217,6 +217,16 @@ p span {
 #kara-text {
     font-size: 15px;
 }
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(93, 182, 220);
+    font-family: "Lemon", serif;
+    padding: 20px;
+    font-size: 24px;
+}
 a .spinners-modders-cases p {
     font-family: "Pacifico", cursive;
 }
