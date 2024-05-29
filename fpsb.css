@@ -241,6 +241,15 @@ a .spinners-modders-cases p {
     color: white;
     border: 3px solid white;
 }
+#worldd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#worldc {
+    color:blue;
+}
 #collab-fpsb a{
     border-radius:15px 30px 15px 30px ;
 }

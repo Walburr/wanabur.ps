@@ -88,6 +88,26 @@ html {
     color: rgb(93, 182, 220);
     font-family: "Lemon", serif;
 }
+::-webkit-scrollbar {
+    background-color: rgb(122, 122, 122);
+}
+::-webkit-scrollbar-thumb {
+    background-color:#99E0F5;
+    width: 6px; 
+    height: 100px; 
+    border: 2px solid black;
+    border-radius: 15px;
+}
+::-moz-scrollbar {    
+    background-color: rgb(122, 122, 122);
+}
+::-moz-scrollbar-thumb {
+    background-color:#99E0F5;
+    width: 6px; 
+    height: 100px; 
+    border: 2px solid black;
+    border-radius: 15px;
+}
 body, html {
     margin: 0;
     padding: 0;
