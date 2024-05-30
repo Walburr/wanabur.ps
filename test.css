@@ -92,7 +92,7 @@ html {
     background-color: rgb(122, 122, 122);
 }
 ::-webkit-scrollbar-thumb {
-    background-color:#99E0F5;
+    background-color:#6ed6f6;
     width: 6px; 
     height: 100px; 
     border: 2px solid black;
@@ -102,7 +102,7 @@ html {
     background-color: rgb(122, 122, 122);
 }
 ::-moz-scrollbar-thumb {
-    background-color:#99E0F5;
+    background-color:#6ed6f6;
     width: 6px; 
     height: 100px; 
     border: 2px solid black;

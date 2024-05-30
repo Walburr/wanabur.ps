@@ -1,0 +1,20 @@
+::-webkit-scrollbar {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color:#6ed6f6;
+    width: 6px; 
+    height: 100px; 
+    border: 2px solid black;
+    border-radius: 15px;
+}
+::-moz-scrollbar {    
+    background-color: rgb(122, 122, 122);
+}
+::-moz-scrollbar-thumb {
+    background-color:#6ed6f6;
+    width: 6px; 
+    height: 100px; 
+    border: 2px solid black;
+    border-radius: 15px;
+}
