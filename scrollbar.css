@@ -5,6 +5,9 @@
     transition: background-color 0.7s;
     background: linear-gradient(to bottom, rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), #8fd7f6, #8fd7f6,#78c3ed,#78c3ed,#4666ba,#4666ba,#4666ba,#4666ba,#4666ba, #193452, #193452);
 }
+.scrollbar-zero ::-webkit-scrollbar {
+    background: linear-gradient(to bottom, rgb(122, 122, 122),rgb(122, 122, 122),rgb(122, 122, 122),#193452, #3B3291, #3B3291);
+}
 .scrollbar-first ::-webkit-scrollbar {
     background: linear-gradient(to bottom, rgb(122, 122, 122),rgb(122, 122, 122),rgb(122, 122, 122),#193452, #3B3291, #3B3291);
 }
