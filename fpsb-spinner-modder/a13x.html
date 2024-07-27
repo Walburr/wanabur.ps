@@ -10,21 +10,26 @@
     <link rel="stylesheet" href="../japen.css">
     <link rel="stylesheet" href="../fpsb.css">
     <link rel="stylesheet" href="../scrollbar.css">
+    <script src="../scrollbar.js" defer></script>
     <script src="../wanabur.js" defer></script>
 </head>
-<style>
-    ::-webkit-scrollbar {
-    background-color: transparent;
-    }
-    ::-webkit-scrollbar-thumb {
-        background-color:#6ed6f6;
-        width: 6px; 
-        height: 100px; 
-        border: 2px solid black;
-        border-radius: 15px;
-    }
-</style>
 <body>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("content-body").style.display = "none";
+
+            document.querySelector(".loader").style.display = "block";
+
+            window.addEventListener("load", function() {
+            
+                document.querySelector(".loader").style.display = "none";
+
+                document.getElementById("content-body").style.display = "block";
+            });
+        });
+    </script>
+
 <span class="loader"></span>
 
 

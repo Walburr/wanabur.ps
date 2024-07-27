@@ -2,25 +2,38 @@
     background-color: rgb(189, 223, 238);
 }
 ::-webkit-scrollbar {
-    transition: background-color 0.7s;
+    transition: background-color 0.4s;
     background: linear-gradient(to bottom, rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), #8fd7f6, #8fd7f6,#78c3ed,#78c3ed,#4666ba,#4666ba,#4666ba,#4666ba,#4666ba, #193452, #193452);
 }
 .scrollbar-zero ::-webkit-scrollbar {
-    background: linear-gradient(to bottom, rgb(122, 122, 122),rgb(122, 122, 122),rgb(122, 122, 122),#193452, #3B3291, #3B3291);
+    transition: background-color 0.4s;
+    background: linear-gradient(to bottom, rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), #193452, #193452,#78c3ed, #193452,#4666ba, #193452, #193452,#3B3291,#3B3291, #193452, #193452, #193452, #193452, #193452);
+}
+.scrollbar-zdotf ::-webkit-scrollbar {
+    transition: background-color 0.4s;
+    background: linear-gradient(to bottom, rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122), rgb(122,122,122) , rgb(122,122,122),#78c3ed,#78c3ed,#78c3ed,#4666ba,#4666ba, #193452, #193452,#4666ba, #193452, #193452, #193452);
 }
 .scrollbar-first ::-webkit-scrollbar {
-    background: linear-gradient(to bottom, rgb(122, 122, 122),rgb(122, 122, 122),rgb(122, 122, 122),#193452, #3B3291, #3B3291);
+    transition: background-color 0.4s;
+    background: linear-gradient(to bottom, rgb(122, 122, 122),rgb(122, 122, 122),rgb(122, 122, 122),rgb(122, 122, 122),#193452, #3B3291, #3B3291);
 }
 .scrollbar-second ::-webkit-scrollbar {
-    background: linear-gradient(to bottom, rgb(122, 122, 122), rgb(189, 223, 238), #3B3291);
+    transition: background-color 0.4s;
+    background: linear-gradient(to bottom, rgb(122, 122, 122), rgb(122, 122, 122), rgb(122, 122, 122),rgb(122, 122, 122),rgb(122, 122, 122),#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291, #3B3291);
+}
+.scrollbar-sedotth ::-webkit-scrollbar {
+    transition: background-color 0.4s;
+    background: linear-gradient(to bottom  rgb(122, 122, 122),rgb(122, 122, 122),#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291) ;
 }
 .scrollbar-third ::-webkit-scrollbar {
-    background: linear-gradient(to bottom, rgb(189, 223, 238), #3B3291, rgb(122, 122, 122));
+    transition: background-color 0.4s;
+    background: linear-gradient(to bottom  #2c2472,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291 );
 }
 .scrollbar-fourth ::-webkit-scrollbar {
-    background: linear-gradient(to bottom, #3B3291, rgb(122, 122, 122), rgb(189, 223, 238));
+    transition: background-color 0.4s;
+    background: linear-gradient(to bottom  #3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#3B3291,#2b2372 );
 }
-::-moz-scrollbar {
+::-moz-scrollbar { 
     background-color: rgb(122, 122, 122);
 }
 ::-moz-scrollbar-thumb {
