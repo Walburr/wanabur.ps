@@ -400,8 +400,8 @@ a .spinners-modders-cases p {
     align-items: center;
     text-align: center;
 }
-/*Twitter item logo*/
-.twitter-item {
+/* Twitter */
+.items {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -409,35 +409,38 @@ a .spinners-modders-cases p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:rgb(125, 173, 239);
+    background-color:rgb(153, 224, 245);
     border: 2px solid black;
     transform: scale(1);
-    transition: scale(1);
     transition: 0.4s ;
 }
-.twitter-item a {
+.items a {
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
 }
-.twitter-item svg {
+.items svg {
     font-size: 2rem;
     color: black;
 }
-.twitter-item svg:hover {
+.items:hover svg {
     transform: rotateX(360deg);
-}
-.twitter-item:hover svg {
     color: white;
-}
-.twitter-item:hover {
+    }
+    .items svg:hover {
+        transform: rotateX(360deg);
+    }
+.items:hover {
     transform: scale(1.5);
-    transition: scale(1);
+    transition: transform;
     transition: 0.4s ;
     background-color: black;
     color: white;
     border: 2px solid white;
+}
+.Tw:hover {
+    color: white;
 }
 /*Dicord item logo*/
 .discord-item {

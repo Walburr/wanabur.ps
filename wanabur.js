@@ -4,11 +4,10 @@ if (window.location.pathname === '/index.html') {
 var monElement = document.getElementById("error_p");
 const searchParams = new URLSearchParams(window.location.search);
 if (searchParams.has("value")){
-monElement.textContent = "Your search '" + searchParams.get("value") + "' was not found"
+    monElement.textContent = "Your search '" + searchParams.get("value") + "' was not found"
 }
 function chercher() {
-    var a = document.getElementById("search-bar").value.trim().toLowerCase();
-   
+    var a = document.getElementById("search-bar").value.trim().toLowerCase(); 
     var redirections = {
         "jeb": "jeb.html",
         "japen": "japen.html",
@@ -539,31 +538,6 @@ function DMOD() {
     window.location.href = "../../mod.html"
 }
 
-
-const title = document.querySelector('.title')
-const leaf1 = document.querySelector('.leaf1')
-const leaf2 = document.querySelector('.leaf2')
-const bush2 = document.querySelector('.bush2')
-const mount1 = document.querySelector('.mount1')
-const mount2 = document.querySelector('.mount2')
-
-
-document.addEventListener('scroll', function() {
-    let value = window.scrollY
-    // console.log(value)
-    title.style.marginTop = value * 1.1 + 'px'
-
-    leaf1.style.marginLeft = -value + 'px'
-    leaf2.style.marginLeft = value + 'px'
-
-    bush2.style.marginBottom = -value + 'px'
-
-    mount1.style.marginBottom = -value * 1.1 + 'px'
-    mount2.style.marginBottom = -value * 1.2 + 'px'
-
-})
-
-
 const siteOfWalbur = "%c Code with love by Walbur and Wanadoo";
 console.log(
     siteOfWalbur,
@@ -630,4 +604,31 @@ const front = document.querySelectorAll("#front")[0];
 // cardContainer.addEventListener('mouseleave', function() {
 //     resetAnimation();
 // });
+document.addEventListener('scroll', function() {
+    const btn_for_top = document.getElementById("btn_for_top")
+    const btn_for_btm = document.getElementById("btn_for_btm")
+    const btn_for_top_or_btm = document.getElementById("btn_for_top_or_btm")
+    const btn_for_top_or_btmbtm = document.getElementById("btn_for_top_or_btmone")
+    const textdocbtm = document.getElementById("othr-palier-btm")
+    const textdoctop = document.getElementById("othr-palier-top")
+    const palier  = document.getElementById("palier_div")
 
+    var history = document.getElementById('img-center');
+    var more_bt_fpsb = document.getElementById('more-about-fpsb');
+    var top_ref = document.getElementById('Discord');
+    var history_fpsb = history.getBoundingClientRect().bottom;
+    var WindowHeight = window.innerHeight;
+    
+    if (history_fpsb < WindowHeight) {  
+        textdocbtm.textContent = 'Go to the iconic spinner/modder of the Fpsb';
+        textdoctop.textContent = 'Go to the History of the Fpsb';
+        if (btn_for_top_or_btmbtm && btn_for_top_or_btm) {
+            btn_for_top_or_btmbtm.addEventListener('click', function() {
+                location.hash = "#more-about-fpsb";
+            });
+            btn_for_top_or_btm.addEventListener('click', function() {
+                location.hash = "#img-center";
+            });
+        }
+    }
+})  
