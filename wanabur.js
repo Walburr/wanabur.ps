@@ -604,31 +604,69 @@ const front = document.querySelectorAll("#front")[0];
 // cardContainer.addEventListener('mouseleave', function() {
 //     resetAnimation();
 // });
+
 document.addEventListener('scroll', function() {
     const btn_for_top = document.getElementById("btn_for_top")
     const btn_for_btm = document.getElementById("btn_for_btm")
-    const btn_for_top_or_btm = document.getElementById("btn_for_top_or_btm")
-    const btn_for_top_or_btmbtm = document.getElementById("btn_for_top_or_btmone")
+    const btn_for_top_or_btm = document.getElementById("btn-for-top-or-btm")
+    const btn_for_top_or_btmbtm = document.getElementById("btn-for-top-or-btmone")
     const textdocbtm = document.getElementById("othr-palier-btm")
     const textdoctop = document.getElementById("othr-palier-top")
     const palier  = document.getElementById("palier_div")
 
     var history = document.getElementById('img-center');
-    var more_bt_fpsb = document.getElementById('more-about-fpsb');
-    var top_ref = document.getElementById('Discord');
+    var collab_fpsb = document.getElementById('collab-fpsb-box');
+    var more_bt = document.getElementById('more-about-fpsb');
+    var ref_spinner = document.getElementById('ref-spinner-modder');
+    var end = document.getElementById('Discord');
     var history_fpsb = history.getBoundingClientRect().bottom;
+    var ref_spinner_modder = ref_spinner.getBoundingClientRect().bottom;
+    var collab_fpsb_box = collab_fpsb.getBoundingClientRect().top;
+    var EndPalier = end.getBoundingClientRect().top;
     var WindowHeight = window.innerHeight;
     
     if (history_fpsb < WindowHeight) {  
         textdocbtm.textContent = 'Go to the iconic spinner/modder of the Fpsb';
         textdoctop.textContent = 'Go to the History of the Fpsb';
-        if (btn_for_top_or_btmbtm && btn_for_top_or_btm) {
-            btn_for_top_or_btmbtm.addEventListener('click', function() {
-                location.hash = "#more-about-fpsb";
-            });
-            btn_for_top_or_btm.addEventListener('click', function() {
-                location.hash = "#img-center";
-            });
-        }
+        btn_for_top_or_btmbtm.addEventListener('click', function() {
+            window.location.href = "#more-about-fpsb";
+        });
+        btn_for_top_or_btm.addEventListener('click', function() {
+            window.location.href = "#img-center";
+        });
+    }if (ref_spinner_modder < WindowHeight) {  
+        textdoctop.value = " "
+        textdocbtm.value = " "
+        textdocbtm.textContent = 'Go to the Fpsb collab and competitions.';
+        textdoctop.textContent = 'Go to the History of the Fpsb';
+        
+        btn_for_top_or_btmbtm.addEventListener('click', function() {
+            window.location.href = "#compet-collab";
+        });
+        btn_for_top_or_btm.addEventListener('click', function() {
+            window.location.href = "#img-center";
+        });        
+    }if (collab_fpsb_box < WindowHeight) {  
+        textdoctop.value = " "
+        textdocbtm.value = " "
+        textdocbtm.textContent = 'Go to the Fpsb social media.';
+        textdoctop.textContent = 'Go to the iconic spinner/modder of the Fpsb';
+        btn_for_top_or_btmbtm.addEventListener('click', function() {
+            window.location.href = "#Discord";
+        });
+        btn_for_top_or_btm.addEventListener('click', function() {
+            window.location.href = "#compet-collab";
+        });        
+    }if (EndPalier < WindowHeight) {  
+        textdoctop.value = " "
+        textdocbtm.value = " "
+        textdocbtm.textContent = 'Go nowhere.';
+        textdoctop.textContent = 'Go to the iconic spinner/modder of the Fpsb';
+        btn_for_top_or_btmbtm.addEventListener('click', function() {
+            window.location.href = "http://nullepart.com";
+        });
+        btn_for_top_or_btm.addEventListener('click', function() {
+            window.location.href = "#compet-collab";
+        });
     }
 })  
