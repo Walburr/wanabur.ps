@@ -296,7 +296,6 @@ div.typing-animation.active {
     display: inline-block;
     justify-content: center;
     font-family: "Pacifico", cursive;
-    color: linear-gradient(to right, #ceeef8, #bddfee);
     font-size: 29px;
     white-space: nowrap;
     overflow: hidden;
