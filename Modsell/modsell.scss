@@ -35,21 +35,24 @@
     flex-wrap: wrap;
 }
 #mods {
-    
+    display: flex;
+        
 }
 #svg-sell-filter {
     height: 30px;
     width: auto;
 }
 #filter-menu {
+    display: none;
     height:40%;
     width: 60%;
     border: 2px solid black;
     background-color: #fff;
 }
 #filter-menu-pos {
+    display: none;
     position: relative;
-    top: 60px ;
+    top: 60px;
     max-width: 700px;
     max-height: 450px;
     height: 450px;

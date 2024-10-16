@@ -38,12 +38,17 @@
   flex-wrap: wrap;
 }
 
+#mods {
+  display: flex;
+}
+
 #svg-sell-filter {
   height: 30px;
   width: auto;
 }
 
 #filter-menu {
+  display: none;
   height: 40%;
   width: 60%;
   border: 2px solid black;
@@ -51,6 +56,7 @@
 }
 
 #filter-menu-pos {
+  display: none;
   position: relative;
   top: 60px;
   max-width: 700px;
