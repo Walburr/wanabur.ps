@@ -29,6 +29,7 @@
     border-radius: 10px;
      h2 {
         color: rgb(131, 131, 131);
+        font-size: 230%;
     }
 }
 #sell {
@@ -36,10 +37,10 @@
 }
 #mods {
     display: flex;
-        
+
 }
 #svg-sell-filter {
-    height: 30px;
+    height:80%;
     width: auto;
 }
 #filter-menu {
@@ -57,5 +58,4 @@
     max-height: 450px;
     height: 450px;
     width: 700px;
-
 } 
