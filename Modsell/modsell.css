@@ -57,6 +57,21 @@
   border-radius: 10px;
   background-color: #8fb1be;
 }
+#filter-menu #txt_price {
+  font-size: 20px;
+  position: relative;
+  left: 10px;
+  font-family: "Lemon", serif;
+  color: rgb(220, 239, 245);
+}
+#filter-menu #txt_price_btw {
+  font-size: 20px;
+  position: relative;
+  left: 10px;
+  top: 60px;
+  font-family: "Lemon", serif;
+  color: rgb(220, 239, 245);
+}
 
 #filter-menu-pos {
   transform-origin: top left;
@@ -81,6 +96,35 @@
 
 #filtertxtttl p {
   font-size: 1vw;
+}
+
+.styled-select {
+  border: none;
+  border-radius: 6px;
+  appearance: none;
+  width: 25%;
+  text-align: center;
+  height: 15%;
+  position: relative;
+  top: 20px;
+  left: 15px;
+  background-color: rgb(225, 231, 231);
+  color: #658C9C;
+  font-size: 10px;
+  font-family: "Lemon", serif;
+}
+
+.styled-select::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  background-image: url("svg/btm_arrow");
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
 }
 
 /*# sourceMappingURL=modsell.css.map */
