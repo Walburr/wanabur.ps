@@ -281,10 +281,18 @@ svg {
   }
 .typing-animation {
   display: flex;
+  justify-content: center;
+  text-align: center;
   align-items: center;
 }
 .text-container {
-  overflow: hidden;
+    overflow: hidden;
+}
+#center_txt_bur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 div.typing-animation.active {
   display: flex;
@@ -317,6 +325,8 @@ div.typing-animation.active {
 
 .animation-typing {
   display: flex;
+  justify-content: center;
+  text-align: center;
   align-items: center;
 }
 

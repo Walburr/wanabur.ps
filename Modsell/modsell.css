@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #sellmodbox {
   margin: 100px 0 0 0;
   display: flex;
@@ -51,26 +52,43 @@
 
 #filter-menu {
   display: flex;
-  height: 40%;
-  width: 60%;
+  height: 60%;
+  width: 80%;
   border: 6px solid rgb(225, 231, 231);
   border-radius: 10px;
   background-color: #8fb1be;
 }
-#filter-menu #txt_price {
+#filter-menu #txt_price_etc {
+  display: grid;
+  grid-column: auto;
+}
+#filter-menu #txt_price_etc #txt_price {
   font-size: 20px;
   position: relative;
   left: 10px;
   font-family: "Lemon", serif;
   color: rgb(220, 239, 245);
 }
-#filter-menu #txt_price_btw {
+#filter-menu #txt_price_etc #txt_price_btw {
   font-size: 20px;
   position: relative;
   left: 10px;
-  top: 60px;
   font-family: "Lemon", serif;
   color: rgb(220, 239, 245);
+}
+#filter-menu #txt_price_etc #star-container {
+  display: flex;
+  gap: 10px;
+}
+#filter-menu #txt_price_etc #star {
+  cursor: pointer;
+  transition: transform 0.3s, fill 3s; /* Animation fluide pour la taille et la couleur */
+  fill: none; /* Couleur par défaut */
+  transform: scale(0.6); /* Taille normale par défaut */
+}
+#filter-menu #txt_price_etc #star.gold {
+  fill: gold;
+  transform: scale(0.8);
 }
 
 #filter-menu-pos {
